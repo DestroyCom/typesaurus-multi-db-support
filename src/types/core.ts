@@ -1689,25 +1689,26 @@ export namespace TypesaurusCore {
     /** The server options. */
     server?: OptionsServer;
     /** The client options. */
+    client?: BaseOptions;
+  }
+
+  /**
+   * The base options.
+   */
+  export interface BaseOptions {
+    /** The server app name. It takes priority over the root's app name. */
+    app?: string;
+    /** The optional databaseId. To bypass the (default) firestore DB */
+    databaseId?: string;
   }
 
   /**
    * The server options.
    */
-  export interface OptionsServer {
-    /** The server app name. It takes priority over the root's app name. */
-    app?: string;
+  export interface OptionsServer extends BaseOptions {
     /** The option forces Firestore the use of REST transport until an operation
      * requires gRPC. It helps to speed up the cold start of the Functions. */
     preferRest?: boolean;
-  }
-
-  /**
-   * The client options.
-   */
-  export interface OptionsServer {
-    /** The client app name. It takes priority over the root's app name. */
-    app?: string;
   }
 
   /**

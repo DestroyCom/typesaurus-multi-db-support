@@ -1,5 +1,5 @@
 {
-  "name": "typesaurus",
+  "name": "typesaurus-multi-db-support",
   "version": "10.7.0",
   "description": "Type-safe ODM for Firestore",
   "keywords": [
@@ -178,8 +178,8 @@
       }
     }
   },
-  "repository": "https://github.com/kossnocorp/typesaurus",
-  "author": "Sasha Koss <koss@nocorp.me>",
+  "repository": "https://github.com/DestroyCom/typesaurus-multi-db-support",
+  "author": "Sasha Koss <koss@nocorp.me> - destcom",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.18.10",
