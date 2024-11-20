@@ -1,3 +1,9 @@
+> :warning: This fork was created to implement support for other databases in Firebase.
+> The original project can be found [here](https://github.com/kossnocorp/typesaurus).
+> If the original project ever implements support for other databases, this fork will be archived. I do not intend to maintain this fork either.
+>
+> In the meantime, you can find it on npm [here](https://www.npmjs.com/package/typesaurus).
+
 🎉️ NEW: [Typesaurus X is out](https://blog.typesaurus.com/typesaurus-x-is-out/)!
 
 ![](https://raw.githubusercontent.com/kossnocorp/typesaurus/main/promo.gif)
