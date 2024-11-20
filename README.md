@@ -30,7 +30,7 @@ The library is available as an [npm package](https://www.npmjs.com/package/types
 To install Typesaurus, run:
 
 ```sh
-npm install --save typesaurus firebase firebase-admin
+npm install --save npm i typesaurus-multi-db-support firebase firebase-admin
 ```
 
 _Note that Typesaurus requires the `firebase` package to work in the web environment and `firebase-admin` to work in Node.js. These packages aren't listed as dependencies, so they won't install automatically with the Typesaurus package._
